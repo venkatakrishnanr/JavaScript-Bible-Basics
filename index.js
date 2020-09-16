@@ -14,13 +14,12 @@
  * "Here is message number 5"
  */
 let i=1;
-setInterval(function(){
-    
-    console.log("Here is message number "+i);
-    i=i+1;
-},2000);
-clearInterval(setInterval(
-    {
-
-    }
-,10000));
+const myInterval=setInterval(function(){
+console.log("Here is message number "+i);
+i=i+1;
+},2000
+);
+console.log(myInterval);
+setTimeout(function(){
+    clearInterval(myInterval);
+},10000);
