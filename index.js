@@ -34,3 +34,31 @@
 // console.log ( 14 % 8);
 
 // console.log( 100 % 30 % 3); //1 - Left to right associativity
+
+
+
+
+/**
+ *  TASK 3
+ * 
+ * What will be logged to the console?
+ */
+//console.log(3 || true && null || false);//3 // STEP 1: true && null -> null
+// STEP 2: 3 || null -> 3
+// STEP 3: 3 || false -> 3
+
+
+/**
+ * TASK 4
+ * 
+ * Find alternatives
+ */
+let a = 10;
+
+a = a + 1; //++a, a++, a+= 1,
+
+a = a * 2; //a* = 2
+
+a = a - 5; // a- =5
+
+a = a / 2; // a/ = 2
