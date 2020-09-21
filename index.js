@@ -26,11 +26,11 @@
  * Print to the console remainder of the division of "myNumber1" by "myNumber2".
  * Which precedence and associativity has this operator?
  */
-let myNumber1 = 10; // 10 = 3 + 3 + 3 + 1
-let myNumber2 = 3;
+// let myNumber1 = 10; // 10 = 3 + 3 + 3 + 1
+// let myNumber2 = 3;
 
-console.log(myNumber1 % myNumber2);
-console.log( 25 % 5);
-console.log ( 14 % 8);
+// console.log(myNumber1 % myNumber2);
+// console.log( 25 % 5);
+// console.log ( 14 % 8);
 
-console.log( 100 % 30 % 3); //1
+// console.log( 100 % 30 % 3); //1 - Left to right associativity
