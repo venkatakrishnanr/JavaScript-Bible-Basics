@@ -22,16 +22,16 @@
 //  * 
 //  * What will be logged to the console?
 //  */
-// function fn() {
-//   console.log("Greeting from the 'fn' function");
+ function fn() {
+   console.log("Greeting from the 'fn' function");
 
-//   return function(a) {
-//     console.log(a);
-//   };
-// }
+  return function(a) {
+     console.log(a);
+  };
+}
 
-// fn() // Greeting from the 'fn' function
-// (true) // "true" because this line will be interpreted as function call with argument "true"
+ fn() // Greeting from the 'fn' function
+ (true) // "true" because this line will be interpreted as function call with argument "true"
 
 // /**
 //  * TASK 3
